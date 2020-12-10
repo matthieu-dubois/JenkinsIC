@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NewTestSuite"> 
+    <test name="testAdd">
+		
+        <parameter name ="number1" value ="5"/>
+        <parameter name ="number2" value ="5"/>	
+        <parameter name ="expResult" value ="10"/>		
+        <classes>
+            <class name="javaapplication1.CalculatorNGTest"/>
+        </classes>
+    </test>
+</suite>
+    
